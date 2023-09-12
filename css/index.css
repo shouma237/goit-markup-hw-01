@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+  --iriscolor: #4d5ae5;
+  --navycolor: #2e2f42;
+  --navcolor: black;
+  --navyblue: #2e2f42;
+  --white: white;
+  --cloud: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.link-logo {
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.5px;
+  font-family: "Raleway", sans-serif;
+}
+
+.web-logo {
+  color: var(--iriscolor);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.studio-logo {
+  color: var(--navycolor);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--navcolor);
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.lists {
+  list-style-type: none;
+}
+
+.navbar a:hover {
+  color: var(--iriscolor);
+}
+
+.top-container {
+  background-color: var(--navycolor);
+  width: 700px;
+  flex-shrink: 0;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.effective {
+  color: var(--white);
+}
+
+.orderservice {
+  margin-bottom: 20px;
+  background-color: var(--iriscolor);
+}
+
+.feature > li {
+  list-style-type: none;
+  word-wrap: break-word;
+}
+
+.whatarewedoing > li {
+  list-style-type: none;
+}
+
+.ourteam > li {
+  list-style-type: none;
+}
+
+.bottom-container {
+  padding-top: 20px;
+  padding-left: 30px;
+  background-color: var(--navyblue);
+  flex-direction: column;
+  height: 200px;
+  flex-shrink: 0;
+}
+
+.bottomtext {
+  color: var(--cloud);
+  text-decoration: none;
+}
+
+.bottom-logo {
+  color: var(--cloud);
+  text-decoration: none;
+}
+
+.project > li {
+  list-style-type: none;
+}
+
+.filterbtn > li {
+  list-style-type: none;
+}
